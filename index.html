@@ -211,7 +211,7 @@
   //Функция, которая задает положение мага по вертикали.
   var getWizardY = function(height) {
     var distanceFromGround = 2 / 3;
-    var wizardPositionY = height * distanceFromGround;
+    var wizardPositionY = height - height * distanceFromGround;
     return Math.round(wizardPositionY);
   };
 </script>
